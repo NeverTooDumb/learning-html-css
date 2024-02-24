@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title> 4th Page butt w external css</title>
+        <link rel="stylesheet" href=css/style.css>
+    </head>
+    <body>
+        <h1> External CSS!</h1>
+        <p> I am a little confused about how the CSS hierarchy works.</p>
+        <p2> omg wait you can have different levels of paragraphs?<br>
+        That makes more sense, because then you could style two different <br>
+        levels of paragraph text and have unique styling for each of them. I guess <br> 
+        the idea here is that websites generally have a uniform style, and there is <br>
+        no need to have more dynamic styling in a given unit. For example, you usually <br>
+        wouldn't have 3 different styles of H1 text text. PS: I learned how to do line breaks lol. </p2>
+
+        <h2> Divs and Spans!</h2>
+        <div>
+            <p2> This first text is in a div. It has a defined width and hieght of <span class="highlight">by 250 px</span> </p2>
+        </div>
+        <p></p>
+        <!--This is a comment to seperate the two divs.--> 
+        <div> 
+            <p2> Suprise, second text is also in a div. It looks kind of stupid but it's interesting to see how divs work. 
+                The width of this is <span class="highlight">250 pixels</span> by the way, in case anyone is reading this. I do wanna
+                Know what it looks like if I write further than the div can hold. if this box is a different shape
+                Than the other one you know it's because I wrote a lot of text, and the div adapted to fit it's contents. 
+                Ok... so my div didn't expand the first time and the text overflowed the div and poured onto the body below.
+                The problem I had is that I defined a hieght of all divs, now they should both allow for overflow / fit text.
+             </p2> 
+        </div>
+        <h2>Using classes to change div styles.</h2>
+        <div class="finaldiv">
+            <p2> Let's try a class to make a different color, fixed size div without overflow. Ok, it works! Classes, baby!</p2>
+        </div>
+    </body>
+
+</html>
